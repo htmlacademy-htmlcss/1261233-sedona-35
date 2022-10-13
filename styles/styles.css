@@ -40,3 +40,102 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
+/* Main */
+
+.promo {
+  background-image: url("../images/mountains-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.texts-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.texts-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* Reasons */
+
+.reasons-list {
+  text-align: center;
+  list-style: none;
+}
+
+.reasons-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.reasons-item:first-child .reasons-title,
+.reasons-item:first-child .reasons-description,
+.reasons-item:last-child .reasons-title,
+.reasons-item:last-child .reasons-description {
+  color:#FFFFFF;
+}
+
+/* advantages */
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* search-hotel */
+
+.search-hotel {
+  text-align: center;
+}
+
+.search-hotel-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.search-hotel-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+/* subscribe */
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
