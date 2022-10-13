@@ -59,6 +59,7 @@ body {
   background-image: url("../images/mountains-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .texts-title {
