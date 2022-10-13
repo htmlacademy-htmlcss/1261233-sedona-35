@@ -151,3 +151,18 @@ body {
   line-height: 26px;
   color: #ffffff;
 }
+
+/* footer */
+
+.footer-contacts-address {
+  font-style: normal;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: #000000;
+}
