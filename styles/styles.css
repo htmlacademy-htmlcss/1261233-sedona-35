@@ -44,12 +44,30 @@ body {
 
 /* Header */
 
+.page-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .page-header {
   color: #000000;
 }
 
+.navigation {
+  display: flex;
+}
+
 .navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 440px;
   list-style: none;
+}
+
+.navigation-user {
+  max-width: 320px;
+  margin-left: auto;
 }
 
 .navigation-link {
