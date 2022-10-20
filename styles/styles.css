@@ -73,7 +73,7 @@ body {
   margin: 0;
   padding: 0;
   width: 440px;
-  list-style: none;
+  list-style-type: none
 }
 
 .navigation-user {
@@ -125,7 +125,7 @@ body {
 
 .reasons-list {
   text-align: center;
-  list-style: none;
+  list-style-type: none
 }
 
 .reasons-title {
@@ -160,7 +160,7 @@ background-color: rgba(131, 179, 211, 0.2);
 /* advantages */
 
 .advantages-list {
-  list-style: none;
+  list-style-type: none
 }
 
 .advantages-item:first-child,
@@ -227,6 +227,10 @@ background-color: rgba(131, 179, 211, 0.2);
 .footer-social {
   width: 200px;
   margin-right: 170px;
+}
+
+.footer-social-list {
+  list-style-type: none
 }
 
 .footer-contacts-address {
