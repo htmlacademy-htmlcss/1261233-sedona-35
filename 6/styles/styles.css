@@ -1,0 +1,368 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #333333;
+  width: 1200px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.page-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.page-header {
+  color: #000000;
+}
+
+.navigation-link-logo {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-right: 28px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.navigation-user {
+  max-width: 320px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  display: block;
+  padding: 20px 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation-user .navigation-link {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+/* Main */
+
+.promo {
+  background-image: url("../images/mountains-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  margin-bottom: 69px;
+}
+
+.texts-title {
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.texts-description {
+  margin: 0;
+  margin-bottom: 90px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* Main */
+
+.main-container {
+  flex-grow: 1;
+}
+
+/* Reasons */
+
+.reasons-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none
+}
+
+.item-container {
+  width: 400px;
+  height: 384px;
+}
+
+.reasons-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reasons-title {
+  margin: 0 auto;
+  margin-top: 103px;
+  margin-bottom: 62px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 175px;
+}
+
+.reasons-item:first-child .reasons-title,
+.reasons-item:nth-child(5) .reasons-title {
+  margin-top: 92px;
+}
+
+.reasons-description {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 230px;
+}
+
+
+.reasons-item:nth-child(2n) .item-container {
+  background-color:rgba(131, 179, 211, 0.12);
+}
+
+.reasons-item:nth-child(3) .item-container {
+background-color: rgba(131, 179, 211, 0.2);
+}
+
+.reasons-item:nth-child(1) .item-container,
+.reasons-item:nth-child(5) .item-container {
+  background-color: #82B3D3;
+}
+
+.reasons-item:nth-child(1) .reasons-title,
+.reasons-item:nth-child(1) .reasons-description,
+.reasons-item:nth-child(5) .reasons-title,
+.reasons-item:nth-child(5) .reasons-description {
+  color:#FFFFFF;
+}
+
+/* advantages */
+
+.advantages-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item:first-child,
+.advantages-item:last-child {
+  background-color: rgba(131, 179, 211, 0.12);
+
+}
+
+.advantages-list {
+  margin-bottom: 96px;
+}
+
+.advantages-title {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-icon {
+  margin-top: 80px;
+  margin-bottom: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;
+  height: 72px;
+}
+
+.advantages-description {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 230px;
+}
+
+/* search-hotel */
+
+.search-hotel {
+  text-align: center;
+}
+
+.search-hotel-title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.search-hotel-description {
+  width: 592px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 54px;
+  padding: 0;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.search-hotel-link {
+  display: block;
+  margin: 0;
+  margin-bottom: 96px;
+}
+
+/* subscribe */
+
+.subscribe {
+  text-align: center;
+  background-color: #82B3D3; /* Не понимаю где взять изображение */
+}
+
+.subscribe-title {
+  margin: 0;
+  margin-top: 96px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subscribe-description {
+  margin: 0 auto;
+  margin-bottom: 54px;
+  padding: 0;
+  width: 475px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.newsletter-form {
+  margin-bottom: 104px;
+}
+
+/* footer */
+.page-footer-container {
+  display: flex;
+  width: 1060px;
+  min-height: 120px;
+  margin: 0 auto;
+}
+
+.footer-social {
+  width: 200px;
+  margin-right: 170px;
+}
+
+.footer-social-list {
+  list-style-type: none
+}
+
+.footer-contacts-address {
+  font-style: normal;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.footer-contacts-logo {
+  display: block;
+  margin-left: auto;
+}
