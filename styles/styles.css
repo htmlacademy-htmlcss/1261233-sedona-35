@@ -45,7 +45,7 @@ body {
 .button {
   display: inline-block;
   box-sizing: border-box;
-  padding: 14px 20px;
+  padding: 8px 50px;
   font-family: inherit;
   font-weight: 700;
   font-size: 20px;
@@ -55,6 +55,7 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 /* Header */
@@ -128,7 +129,6 @@ body {
   font-size: 16px;
   padding: 8px 34px;
   margin-left: 20px;
-  border-radius: 4px;
 }
 
 /* Main */
@@ -318,7 +318,6 @@ background-color: rgba(131, 179, 211, 0.2);
 }
 
 .search-hotel-link {
-  display: block;
   margin: 0;
   margin-bottom: 96px;
 }
@@ -353,7 +352,9 @@ background-color: rgba(131, 179, 211, 0.2);
 }
 
 .newsletter-form {
+  display: flex;
   margin-bottom: 104px;
+  justify-content: center;
 }
 
 /* footer */
