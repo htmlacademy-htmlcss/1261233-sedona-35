@@ -56,6 +56,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Header */
@@ -360,18 +361,55 @@ background-color: rgba(131, 179, 211, 0.2);
 /* footer */
 .page-footer-container {
   display: flex;
+  align-items: center;
   width: 1060px;
   min-height: 120px;
   margin: 0 auto;
 }
 
 .footer-social {
+  display: flex;
+  justify-content: baseline;
   width: 200px;
   margin-right: 170px;
 }
 
 .footer-social-list {
-  list-style-type: none
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+.footer-social-item {
+  margin-right: 20px;
+}
+
+.footer-social-link {
+  display: block;
+  width: 30px;
+  height: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 24px 17px; */
+}
+
+.footer-social-vk {
+  background-image: url("../images/social/vk.svg");
+  background-size: 24px 14px;
+}
+
+.footer-social-tg {
+  background-image: url("../images/social/telegram.svg");
+  background-size: 18px 15px;
+}
+
+.footer-social-yt {
+  background-image: url("../images/social/youtube.svg");
+  background-size: 22px 17px;
 }
 
 .footer-contacts-address {
